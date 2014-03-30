@@ -1,0 +1,16 @@
+body {
+  @include background(linear-gradient(top,#f1f1f1 61px,#fff 61px,#fff 100%) no-repeat);
+  font-family: arial,serif;
+  font-size: 16px;
+}
+p,h1,h2,h3,h4,h5,h6 { margin: 0; }
+a { color: #1e0fbe; }
+ul {
+  margin-left: 1.3em;
+  margin-bottom: 2em;
+  padding: 0;
+}
+#container {
+  width: 1160px;
+  margin: 0 auto;
+}

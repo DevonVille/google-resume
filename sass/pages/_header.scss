@@ -1,0 +1,40 @@
+// ******************************************************************************************************************************
+// Header Section
+// ******************************************************************************************************************************
+#header {
+  @include vertical-align;
+  font-size: 0;
+  height: 60px;
+
+// Header Logo
+// ------------------------------------------------------------------------------------------------------------------------------
+  .header_logo {
+    @include inline-block(92px,33px,auto,middle,auto);
+    padding: 0 20px 0 15px
+  }
+
+// Search Bar
+// ------------------------------------------------------------------------------------------------------------------------------
+  .search_bar {
+    @include inline-block(597px,30px,auto,middle,30px);
+    @include box-sizing("border-box");
+    background: #fff inline-image("voice.gif") 99% center no-repeat;
+    background-size: 14px 19px;
+    border: 1px solid #cdcdcd;
+    border-right-width: 0;
+    position: relative;
+    font-size: 16px;
+    padding: 0 10px;
+  }
+
+// Search Bar Button
+// ------------------------------------------------------------------------------------------------------------------------------
+  .search_button {
+    @include inline-block(60px,30px,auto,middle,30px);
+    border: none;
+    background: #4285f4 inline-image("search.png") center center no-repeat;
+    background-size: 15px 15px;
+    color: transparent;
+    border-radius: 0 2px 2px 0;
+  }
+}
