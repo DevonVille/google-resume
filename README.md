@@ -1,4 +1,4 @@
-google-resume
+Google Resume
 =============
 
-A google resume written in Html and Sass
+A google-search style resume written in Html and Sass.
